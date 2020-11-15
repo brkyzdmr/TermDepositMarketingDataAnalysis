@@ -65,15 +65,34 @@ The data comes from direct marketing efforts of a European banking institution. 
 
 ## Results
 
+![result](./img/result.png)
+
 | Models                     | Cross Validation Score |
 |----------------------------|------------------------|
-| CatBoostClassifier         | 93.850000              |
-| XGBClassifier              | 93.633333              |
-| DecisionTreeClassifier     | 93.383333              |
-| LogisticRegression         | 93.350000              |
-| RandomForestClassifier     | 93.158333              |
-| KNeighborsClassifier       | 92.975000              |
-| SVC                        | 92.950000              |
-| GradientBoostingClassifier | 92.733333              |
-| MLPClassifier              | 92.525000              |
-| GaussianNB                 | 90.866667              |
+| CatBoostClassifier         | 96.029919              |
+| RandomForestClassifier     | 95.914845              |
+| XGBClassifier              | 95.454545              |
+| DecisionTreeClassifier     | 95.109321              |
+| GradientBoostingClassifier | 95.051784              |
+| LogisticRegression         | 94.879171              |
+| GaussianNB                 | 88.550058              |
+| SVC                        | 81.185270              |
+| KNeighborsClassifier       | 80.092060              |
+| MLPClassifier              | 48.734177              |
+
+### CatBoost Classifier Result
+
+![result](./img/roc_catb.png)
+
+![result](./img/conf_mat_catb.png)
+
+![result](./img/pr_curve_catb.png)
+
+
+| Metrics                   | Score |
+|---------------------------|-------|
+| Accuracy                  | 0.960 |
+| Precision                 | 0.966 |
+| Recall                    | 0.952 |
+| F1-Score                  | 0.960 |
+| 10-Fold Cross Validation  | 0.954 |
