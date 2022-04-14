@@ -2,7 +2,11 @@
 
 ## Summary 
 
-Data analysis for predicting if the customer will subscribe to a term deposit.
+Data analysis for predicting if the customer will subscribe to a term deposit. This project has developed for Data Science company technical interview. 
+
+## How to improve the result?
+
+I did not tuned hyper-parameters, so before the learning process you can make hyper-parameter tuning for better result.
 
 ## Background
 
